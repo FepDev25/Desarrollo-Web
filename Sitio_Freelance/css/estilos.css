@@ -1,0 +1,65 @@
+/* Hojas de estilo en cascada: */
+
+/* El rol de CSS: Colores, tamanios, animaciones, espacios, margenes. adaptar a dispositivos ect
+Ojas de estilo en cascada que permiten darle un disenio unico al codigo html */
+
+/* Anatomia:
+Selector {
+    codigo css
+    llave : valor
+    propiedad : valor;
+} /*
+
+/* Selectores
+Selector de elemento: Directamente el elemento, selecciona todos esos elementos del html
+Selector de clase: .class Es reutilizable
+Selector por ID: #id Dar un id unico por pagina
+Selector de atributo: [src="logo.jpg"] 
+Combinacion de descendentes: .cliente .nombre
+Todos los hijos .cliente > p
+*/
+
+/* Especificidad
+Mientras mas especifico sea un sselector, mas probable es qeu este se aplique.
+El navegador toma en cuenta el selector mas especifico
+*/
+
+/* Colores
+Por nombre
+Hexadecimal
+rgb()
+hsl()
+rgba()
+*/
+
+/* Custom properties o variables de css: */
+:root{
+    --blanco: #FFFFFF;
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --gris: #757575;
+
+    --fuente_principal: 3.8rem;
+}
+
+
+/* Hacen que los rem sean sencillos y practicos de utilizar 1rem=10px */
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+}
+/* Rem se adapta al dispositivo en donde se cargue la aplicacion, pc, celular, reloh, tablet etc */
+
+.titulo {
+    text-align: center;
+    font-size: 3.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo span{
+    font-size: 2rem; /* El rem es relativo al documento */ 
+}
+
