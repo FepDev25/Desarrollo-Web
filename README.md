@@ -111,6 +111,11 @@ El navegador toma en cuenta el selector mas especifico
 - 1140: Laptop o PC
 - 1440: Convencion
 
+### CSS Box Model
+
+- El tamanio de lo que se muestra en la pantalla depende de: Contenido, relleno (padding), borde y el margen.
+-
+
 ### Extras
 
 Iconos:
@@ -120,3 +125,15 @@ Fuentes:
 [Google Fonts](https://fonts.google.com/)
 
 Normalize: Normalizar, todos los elementos se vean consistentes en todos los navegadores. [Link](https://necolas.github.io/normalize.css/)
+
+Responsive Design:
+[Link](https://responsively.app/)
+
+Box Sizing:
+[Link](https://www.paulirish.com/2012/box-sizing-border-box-ftw/)
+
+Herramienta CSS Matic:
+[Link](https://www.cssmatic.com/)
+
+Can I Use:
+[Link](https://caniuse.com/)
