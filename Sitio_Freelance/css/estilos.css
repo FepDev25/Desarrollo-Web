@@ -50,16 +50,63 @@ html{
 }
 body{
     font-size: 16px;
+    font-family: "Krub", sans-serif;
 }
 /* Rem se adapta al dispositivo en donde se cargue la aplicacion, pc, celular, reloh, tablet etc */
 
+/* Estilos del titulo*/
 .titulo {
     text-align: center;
     font-size: 3.8rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .titulo span{
     font-size: 2rem; /* El rem es relativo al documento */ 
+}
+
+/* Contenedor multiuso*/
+.contenedor{
+    max-width: 120rem;
+    margin: auto; /*  0 auto 0 auto */
+}
+
+/* Estilos de la barra de navegacion principal */
+.navegacion_principal{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+/* Uso de media queris
+480: Telefonos
+768: Tablet
+1140: Laptop o PC
+1440: Convencion
+*/
+
+@media (min-width: 768px) {
+    .navegacion_principal{
+        flex-direction: row; /* Default */
+    }
+}
+
+.navegacion_principal a{
+    color: var(--blanco);
+    padding: 0.7em;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold; /* Negrita, puede ser 700 tambien */
+}
+
+.navegacion_principal a:hover{
+    /* Pseudoclases, se ejecutan cuando sucede algo*/
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
+
+.nav-bag{
+    background-color: var(--secundario);
 }
 

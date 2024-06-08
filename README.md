@@ -23,7 +23,7 @@
 
 - Separar las diferentes secciones de una pagina web.
 - "Agrupar"
-- Etiquetas a utilizar: header(cabeza de pagina), footer(pie de pagina), nav(navegacion), main(elementos principales), section(secciones), article, aside, div.
+- Etiquetas a utilizar: header(cabeza de pagina), footer(pie de pagina), nav(navegacion), main(elementos principales), section(secciones), article, aside, div, etc.
 
 ## CSS
 
@@ -42,25 +42,74 @@ Selector {
 
 ### Selectores
 
-Selector de elemento: Directamente el elemento, selecciona todos esos elementos del html
-Selector de clase: .class Es reutilizable
-Selector por ID: #id Dar un id unico por pagina
-Selector de atributo: [src="logo.jpg"]
-Combinacion de descendentes: .cliente .nombre
-Todos los hijos .cliente > p
+- Selector de elemento: Directamente el elemento, selecciona todos esos elementos del html
+- Selector de clase: .class Es reutilizable
+- Selector por ID: #id Dar un id unico por pagina
+- Selector de atributo: [src="logo.jpg"]
+- Combinacion de descendentes: .cliente .nombre
+- Todos los hijos .cliente > p
 
 ### Especificidad
 
-Mientras mas especifico sea un sselector, mas probable es qeu este se aplique.
+Mientras mas especifico sea un sselector, mas probable es que este se aplique.
 El navegador toma en cuenta el selector mas especifico
 
 ### Colores
 
-Por nombre
-Hexadecimal
-rgb()
-hsl()
-rgba()
+- Por nombre
+- Hexadecimal
+- rgb()
+- hsl()
+- rgba()
+
+### Displays
+
+- Display block: El elemento se va a colocar uno debajo del otro sin importar su contenido.
+- Display inline: El elemento se va a colocar a la derecha del otro, solo ocupa el espacio de su tamanio.
+
+### Flexbox
+
+- Modelo unidimensional para crear disenios.
+- Se puede colocar y distribuir los elementos en una direccion, fila (row) o columna (column). Row es el default. Tambien existe row-reverse y column-reverse.
+- Rox o row-reverse: Los elementos se colocan de izquierda a derecha.
+- Column o column-reverse: Los elementos se colocan de arriba a abajo.
+- Utilizada para alinear elementos en los disenios.
+
+### BEM
+
+- Bloques, elementos, modificadores.
+- Se tiene un bloque principal y partiendo de ese se describen los demas elementos.
+- .card{}
+- .card_titulo{}
+- .card_imagen{}
+- .card_boton{}
+- .card_boton--activo{}
+
+### Utility first
+
+- Crear una clase con una propiedad que describe que es loque haria.
+- .text_center{}
+- .color-red-100{}
+- .color-red-75{}
+- .margin-2{}
+
+### Modulos
+
+- Se define lo que es el contenido principal y luego se selecciona los elementos html
+- .card {}
+- .card h1 {}
+- .card img {}
+- .card a {}
+
+### Responsive Web Design
+
+- Hacer el sitio web adaptable a diferentes dispositivos.
+- El disenio debera adaptarse a la resolucion que utilice el usuario.
+- Media Queris: @media(min-width){}
+- 480: Telefonos
+- 768: Tablet
+- 1140: Laptop o PC
+- 1440: Convencion
 
 ### Extras
 
@@ -69,3 +118,5 @@ Iconos:
 
 Fuentes:
 [Google Fonts](https://fonts.google.com/)
+
+Normalize: Normalizar, todos los elementos se vean consistentes en todos los navegadores. [Link](https://necolas.github.io/normalize.css/)
