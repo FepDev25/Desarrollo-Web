@@ -52,7 +52,7 @@ Selector {
 ### Especificidad
 
 Mientras mas especifico sea un selector, mas probable es que este se aplique.
-El navegador toma en cuenta el selector mas especifico
+El navegador toma en cuenta el selector mas especifico. Se puede pasar por encima a todos con: !important (no recomendado).
 
 ### Colores
 
@@ -80,10 +80,10 @@ El navegador toma en cuenta el selector mas especifico
 - Bloques, elementos, modificadores.
 - Se tiene un bloque principal y partiendo de ese se describen los demas elementos.
 - .card{}
-- .card_titulo{}
-- .card_imagen{}
-- .card_boton{}
-- .card_boton--activo{}
+- .card__titulo{}
+- .card__imagen{}
+- .card__boton{}
+- .card__boton--activo{}
 
 ### Utility first
 
@@ -115,6 +115,23 @@ El navegador toma en cuenta el selector mas especifico
 
 - El tamanio de lo que se muestra en la pantalla depende de: Contenido, relleno (padding), borde y el margen.
 
+### Margin
+
+- Separacion de los elementos con respecto a otros, hacia afuera.
+
+### Padding
+
+- El espacio del elemento, hacia adentro.
+
+### CSS Grid
+
+- Permite definir la ubicacion y el tamanio de loe elementos del sistio web. El contenido se agrupa dentro de una area definida, como una tabla.
+
+### Cuando elegir Grid y Flexbox
+
+- Utilizar flexbox para la alineacion o distribucion de los elementos que estaran dentro de contenedores. Ej: Navegacion.
+- Utilizar grid para el layout dell sitio web, como pueden ser las columnas o contenedores de elementos.
+
 ### Herramientas
 
 Iconos:
@@ -131,8 +148,8 @@ Responsive Design:
 Box Sizing:
 [Link](https://www.paulirish.com/2012/box-sizing-border-box-ftw/)
 
-Herramienta CSS Matic:
+Herramienta CSS Matic: Ayuda a generar cofigo css.
 [Link](https://www.cssmatic.com/)
 
-Can I Use:
+Can I Use: Ver que codigo css se puede utilizar en navegadores.
 [Link](https://caniuse.com/)
