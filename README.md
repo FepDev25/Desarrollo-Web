@@ -51,7 +51,7 @@ Selector {
 
 ### Especificidad
 
-Mientras mas especifico sea un sselector, mas probable es que este se aplique.
+Mientras mas especifico sea un selector, mas probable es que este se aplique.
 El navegador toma en cuenta el selector mas especifico
 
 ### Colores
@@ -114,9 +114,8 @@ El navegador toma en cuenta el selector mas especifico
 ### CSS Box Model
 
 - El tamanio de lo que se muestra en la pantalla depende de: Contenido, relleno (padding), borde y el margen.
--
 
-### Extras
+### Herramientas
 
 Iconos:
 [Tabler Icons](https://tablericons.com/ )
