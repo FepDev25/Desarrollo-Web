@@ -84,6 +84,9 @@ El navegador toma en cuenta el selector mas especifico. Se puede pasar por encim
 - .card__imagen{}
 - .card__boton{}
 - .card__boton--activo{}
+- Bloque: Contenedores, es una seccion por si sola y no requiere de otras secciones para su apariencia. Ej: "class: cliente"
+- Elemento: Son parte de un bloque, dependen del bloque y no son por si solos significativos. Ej: "class: cliente__nombre"
+- Modificador: Es una bandera que avisa que un elemento como un bloque o elemento tendra un disenio diferente. Ej: "class: cliente__nombre--ceo"
 
 ### Utility first
 
@@ -140,7 +143,8 @@ Iconos:
 Fuentes:
 [Google Fonts](https://fonts.google.com/)
 
-Normalize: Normalizar, todos los elementos se vean consistentes en todos los navegadores. [Link](https://necolas.github.io/normalize.css/)
+Normalize: Normalizar, todos los elementos se vean consistentes en todos los navegadores.
+[Link](https://necolas.github.io/normalize.css/)
 
 Responsive Design:
 [Link](https://responsively.app/)
