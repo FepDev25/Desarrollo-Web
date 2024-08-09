@@ -135,6 +135,29 @@ El navegador toma en cuenta el selector mas especifico. Se puede pasar por encim
 - Utilizar flexbox para la alineacion o distribucion de los elementos que estaran dentro de contenedores. Ej: Navegacion.
 - Utilizar grid para el layout dell sitio web, como pueden ser las columnas o contenedores de elementos.
 
+### Patrones de diseño para RWD
+
+- 2 Columnas Iguales
+Un diseño simple en el que la pantalla se divide en dos columnas de igual ancho. Es ideal para mostrar contenido que debe ser visto en paralelo, como texto e imágenes o dos listas de datos.
+
+- 3 Columnas Iguales
+Este patrón organiza el contenido en tres columnas de igual ancho. Se utiliza para mostrar información en bloques separados pero relacionados, siendo útil en sitios con múltiples secciones de contenido.
+
+- Column Drop
+Un diseño en el que las columnas se apilan verticalmente a medida que el ancho de la pantalla disminuye. Es común en sitios que necesitan ser fácilmente legibles en dispositivos móviles, donde el contenido se reorganiza para adaptarse a pantallas más pequeñas.
+
+- Con Sidebar
+Un diseño donde el contenido principal ocupa la mayor parte de la pantalla, mientras que una barra lateral (sidebar) se utiliza para mostrar contenido secundario o navegación. En pantallas más pequeñas, la barra lateral suele desplazarse debajo del contenido principal.
+
+- Layout Shifter
+Un patrón flexible que cambia la disposición del contenido en función del ancho de la pantalla. A medida que la pantalla se hace más pequeña, los elementos se reorganizan y cambian de tamaño para mantener una apariencia y funcionalidad óptimas en cualquier dispositivo.
+
+- Tiny Tweaks
+Pequeños ajustes según la resolución.
+
+- Mostly Fluid
+Un diseño mayormente fluido en el que las columnas se ajustan proporcionalmente al ancho de la pantalla, pero con algunos elementos fijos para mantener la estructura y la legibilidad. Es ideal para diseños que necesitan adaptarse a una variedad de dispositivos sin perder consistencia.
+
 ### Herramientas
 
 Iconos:
