@@ -158,6 +158,56 @@ Pequeños ajustes según la resolución.
 - Mostly Fluid
 Un diseño mayormente fluido en el que las columnas se ajustan proporcionalmente al ancho de la pantalla, pero con algunos elementos fijos para mantener la estructura y la legibilidad. Es ideal para diseños que necesitan adaptarse a una variedad de dispositivos sin perder consistencia.
 
+### Mejorar performance
+
+#### Lazy loading
+
+- Cargar un elemento cuando se llegue a el.
+- Descargar imagenes segun se va requiriendo.
+
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Mi primera página</title>
+        </head>
+        <body>
+            <img loading="lazy" src="" alt="Imagen blog">
+        </body>
+</html>
+
+#### Preload
+
+- Cargar elementos los cuales se considera necesrio que se carguen lo mas rapido posible.
+
+<!DOCTYPE html>
+    <html>
+        <head> 
+            <!-- Ojas de estilo -->
+            <link rel="preload" href="" as="style">
+            <link rel="stylesheet" href="">
+            <!-- Fuentes -->
+            <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" crossorigin="crossorigin" as="font">
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+            <title>Mi primera página</title>
+        </head>
+        <body>
+        </body>
+    </html>
+
+#### Prefecth
+
+- Cargar la siguiente pagina que el usuario se crea que va a visitar.
+
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link rel="prefetch" href="" as="document">
+            <title>Mi primera página</title>
+        </head>
+        <body>
+        </body>
+</html>
+
 ### Herramientas
 
 Iconos:
@@ -167,19 +217,19 @@ Fuentes:
 [Google Fonts](https://fonts.google.com/)
 
 Normalize: Normalizar, todos los elementos se vean consistentes en todos los navegadores.
-[Link](https://necolas.github.io/normalize.css/)
+[Normalize](https://necolas.github.io/normalize.css/)
 
 Responsive Design:
-[Link](https://responsively.app/)
+[Responsive Design](https://responsively.app/)
 
 Box Sizing:
-[Link](https://www.paulirish.com/2012/box-sizing-border-box-ftw/)
+[Box Sizing](https://www.paulirish.com/2012/box-sizing-border-box-ftw/)
 
 Herramienta CSS Matic: Ayuda a generar cofigo css.
-[Link](https://www.cssmatic.com/)
+[CSS Matic](https://www.cssmatic.com/)
 
 Can I Use: Ver que codigo css se puede utilizar en navegadores.
-[Link](https://caniuse.com/)
+[Can I Use](https://caniuse.com/)
 
 Netlify: Publicar proyectos gratis
-[Link](https://app.netlify.com/teams/fepdev25/sites)
+[Netlify](https://app.netlify.com/teams/fepdev25/sites)
