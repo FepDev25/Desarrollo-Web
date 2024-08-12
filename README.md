@@ -208,6 +208,37 @@ Un diseño mayormente fluido en el que las columnas se ajustan proporcionalmente
         </body>
 </html>
 
+#### Formatos exclusivos de imagenes oara web: Webp
+
+- Imagen con la misma calidad pero optimizadas para web.
+- Ideal pero aveces no tiene soporte.
+- Se debe especificar tambien una imagen con un formato que sea soportado por todos los navegadores en caso de estar en un navegador que no soporte webp.
+
+<!DOCTYPE html>
+    <html>
+        <head>
+        </head>
+        <body>
+            <picture>
+                <source srcset="./img/blog1.webp" type="image/webp">
+                <img loading="lazy" src="./img/blog1.jpg" alt="Imagen blog">
+            </picture>
+        </body>
+</html>
+
+#### Etiquetas Meta
+
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8"> <!-- Sirve para aceptar caracteres especiales -->
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Se encarga de mostrar el contenido proporcional-->
+            <meta name="description" content="Pagina web de blog de cafe"> <!-- Descripcion de lo que trata el sitio web-->
+        </head>
+        <body>
+        </body>
+</html>
+
 ### Herramientas
 
 Iconos:
@@ -231,5 +262,11 @@ Herramienta CSS Matic: Ayuda a generar cofigo css.
 Can I Use: Ver que codigo css se puede utilizar en navegadores.
 [Can I Use](https://caniuse.com/)
 
-Netlify: Publicar proyectos gratis
+Netlify: Publicar proyectos gratis.
 [Netlify](https://app.netlify.com/teams/fepdev25/sites)
+
+Modernizr: Libreria de javascript para detectar las caracteristicas de una navegador. Si las soporta se ejcuta un codigo y si no la soporta ejecuta otro.
+[Modernizr](https://modernizr.com/)
+
+Lighthouse: Extesnion de google para indicar si la pagina web sigue buenas practicas.
+[Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=es)
