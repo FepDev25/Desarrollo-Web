@@ -239,6 +239,73 @@ Un diseño mayormente fluido en el que las columnas se ajustan proporcionalmente
         </body>
 </html>
 
+## JavaScript
+
+- Es el lenguaje de la web.
+- Agrega interactividad a los sistios web.
+- Desarrollo FrontEnd y BackEnd
+- Desarrollo de aplicaciones de escritorio y moviles.
+- Reaccionar a eventos del usuario a la pagina web.
+- Validar fomularios.
+- Procesar informacion.
+- JS corre sobre el DOM: Document object model, o como estan conectados los elementos en el sitio web.
+- Herramientas de Js para distintos usos:
+    1. Para el frontend: React Js, Vue Js, Angular
+    1. Para el servidor: Node Js, Express, Deno
+    1. Para automatizacion: Gulp Js, Webpack, ESLint
+    1. Para dependencias: NPM
+    1. Para apps moviles o escritorio: React Native, Electron
+
+### Use strict
+
+- Se lo coloca al inicio del script, hace que el codigo de js se ejecute de forma estricta, mostrando cada mensaje de error.
+
+### Diferencias entre funciones
+
+#### Declaracion de la funcion
+
+- Se utiliza generalmente cuando necesitas definir una función global o que estará disponible en todo el bloque de código.
+- Hoisting: Las declaraciones de funciones son "elevadas" al principio de su contexto (función o script) durante la fase de compilación. Esto significa que puedes llamar a la función antes de su declaración en el código, y funcionará sin problemas.
+
+#### Expresion de la funcion
+
+- Se utiliza cuando necesitas una función local o anónima, o cuando deseas definir una función de manera condicional o dinámica.
+- No hay Hoisting Completo: A diferencia de las declaraciones de funciones, las expresiones de funciones no son elevadas de la misma manera. Solo la variable que contiene la función es elevada, pero su asignación (la función) no lo es. Por lo tanto, si intentas llamar a la función antes de su definición, obtendrás un error de referencia.
+
+### Promesas
+
+- Una promesa es un objeto que representa la eventual finalización (o falla) de una operación asíncrona y su valor resultante.
+- Estados de una Promesa:
+
+    1. Pendiente (Pending): Estado inicial, la operación no ha terminado.
+    1. Cumplida (Fulfilled): La operación se completó con éxito.
+    1. Rechazada (Rejected): La operación falló.
+
+- Manejo de Promesas:
+
+    1. then: Se ejecuta cuando la promesa se cumple.
+    1. catch: Se ejecuta cuando la promesa es rechazada.
+    1. finally: Se ejecuta siempre, independientemente del resultado.
+
+### Async/Await
+
+- async/await es una sintaxis que simplifica el trabajo con promesas y permite escribir código asíncrono de manera más legible y estructurada.
+- async: Se coloca antes de una función para que siempre retorne una promesa.
+- await: Se utiliza dentro de funciones async para esperar la resolución de una promesa. La ejecución de la función se pausa hasta que la promesa se resuelve.
+
+### Fetch Api
+
+- Permite enviar u obtener informacion de un servidor.
+- Se puede actualizar la app sin teer que recargar la pagina, actualizar en tiempo real.
+- Se puede obtener un archivo local o una respuesta de servidor (texto o .json).
+- Utiliza promesas y async /await.
+
+#### Json
+
+- Significa JavaScript object notation.
+- Lenguaje de trasnporte de datos.
+- Puede ser creado en cualquier lenguaje y se puede consumir en JavaScript por medio de Fetch Api para mostrarlo en el sitio web.
+
 ### Herramientas
 
 Iconos:
