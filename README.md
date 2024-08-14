@@ -306,6 +306,11 @@ Un diseño mayormente fluido en el que las columnas se ajustan proporcionalmente
 - Lenguaje de trasnporte de datos.
 - Puede ser creado en cualquier lenguaje y se puede consumir en JavaScript por medio de Fetch Api para mostrarlo en el sitio web.
 
+### DOM Scripting
+
+- Seleccionar crear y modificar elementos del HTML.
+- Agregar eventos.
+
 ### Herramientas
 
 Iconos:
