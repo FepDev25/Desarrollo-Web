@@ -239,6 +239,57 @@ Un diseño mayormente fluido en el que las columnas se ajustan proporcionalmente
         </body>
 </html>
 
+## SASS
+
+- CSS con superpoderes.
+- Syntatically Awesome StyleSheet.
+- Se le considera un estandar de la industria, compatible con muchos frameworks de css.
+- Mejor orden y estructura, separando en diferentes archivos el codigo.
+- Caracteristicas que no existen en CSS o con mejor soporte.
+- No es nativo en el navegador, se debe compilar con alguna herramienta.
+- La anidacion puede causar problemas.
+- Utiliza variables:
+    $color: #e1e1e1;
+    $separacion: 5rem;
+- Anidacion en SASS
+    1. .saas: Usa identacion.
+    1. .scss: Sintaxis mas parecida a css.
+
+- SASS se debe compilar en un archivo css.
+
+### Misins en SASS
+
+- Permiten escribir codigo que puede ser re-utilizado en las hojas de estilos.
+- La cantidad de clase y codigo repetido puede ser menor.
+- El HTML sera semanticamente mejor.
+- Sintaxis: @mixin nombre {}
+- Se utilizan con: @inclue nombre
+
+## Gulp.js
+
+- Automatizar tareas repetitivas en Desarrollo web como: Compilar SAAS y JS, crear imagenes ligeras o minificar codigo para produccion.
+- Para utilizar gulp.js se necesita Node.js y NPM.
+- Gulp utiliza Js.
+
+## Node.js
+
+- Entorno que permite ejecutar JS en el servidor.
+
+## NPM
+
+- Node Package Manager. Es un sistema de gestion de paquetes para el lenguaje JS. Es el administrador de paquetes por defecto para el entorno de ejecucion Node.js
+
+## Archivo package.json
+
+- Es un archivo se utiliza para almacenar metadotos relevantes sobre el proyecto.
+- Se encuentra en la raíz del proyecto y cumple varias funciones importantes:
+
+    1. Gestión de dependencias: El archivo package.json es crucial para la gestión de las dependencias del proyecto. Las dependencias son paquetes o módulos de código que el proyecto necesita para funcionar correctamente. Estas dependencias se pueden dividir en varios tipos:
+        1. Dependencias de proyecto (dependencies): Son los paquetes necesarios para que la aplicación funcione en producción. Estos paquetes son necesarios durante la ejecución de la aplicación, y sin ellos, la aplicación podría fallar.
+        1. Dependencias de desarrollo (devDependencies): Son los paquetes que solo se necesitan durante el desarrollo del proyecto, como herramientas de prueba, linters, o compiladores. No son necesarias para la ejecución del proyecto en producción.
+        1. Dependencias de dependencias: Estas son las dependencias que son requeridas por otros paquetes (las dependencias principales del proyecto). Cuando instalas una dependencia, también se instalan automáticamente sus propias dependencias para asegurar que funcione correctamente.
+    1. Permite definir scripts personalizados: Los scripts personalizados son comandos que se pueden ejecutar con npm run <nombre_del_script>, permitiendo automatizar tareas comunes en el desarrollo, como iniciar un servidor local, ejecutar pruebas, o construir la aplicación para producción.
+
 ## JavaScript
 
 - Es el lenguaje de la web.
@@ -342,3 +393,6 @@ Modernizr: Libreria de javascript para detectar las caracteristicas de una naveg
 
 Lighthouse: Extesnion de google para indicar si la pagina web sigue buenas practicas.
 [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=es)
+
+NPM: Administrador de paquetes.
+[NPM](https://www.npmjs.com/)

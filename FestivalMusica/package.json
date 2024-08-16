@@ -1,0 +1,31 @@
+{
+  "name": "festivalmusica",
+  "version": "1.0.0",
+  "description": "Aprendiendo SASS y NPM",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:dist/css",
+    "dev": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FepDev25/Desarrollo-Web.git"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "GULP"
+  ],
+  "author": "Felipe Peralta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FepDev25/Desarrollo-Web/issues"
+  },
+  "homepage": "https://github.com/FepDev25/Desarrollo-Web#readme",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.77.8"
+  }
+}
