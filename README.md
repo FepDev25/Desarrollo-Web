@@ -396,3 +396,9 @@ Lighthouse: Extesnion de google para indicar si la pagina web sigue buenas pract
 
 NPM: Administrador de paquetes.
 [NPM](https://www.npmjs.com/)
+
+### Despliegue de los sitios
+
+[Sitio Freelancer](https://freelancer-fepdev25.netlify.app/)
+[Blog Café](https://blogcafefepdev25.netlify.app)
+[FestivalMusica](https://fepdev25festivalmusica.netlify.app/)
