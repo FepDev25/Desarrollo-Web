@@ -208,11 +208,21 @@ Un diseño mayormente fluido en el que las columnas se ajustan proporcionalmente
         </body>
 </html>
 
-#### Formatos exclusivos de imagenes oara web: Webp
+#### Formatos exclusivos de imagenes para web: Webp
 
 - Imagen con la misma calidad pero optimizadas para web.
 - Ideal pero aveces no tiene soporte.
 - Se debe especificar tambien una imagen con un formato que sea soportado por todos los navegadores en caso de estar en un navegador que no soporte webp.
+- Ofrece una compresion mejor que jpeg y png.
+- Soporta transferencia.
+- Mejor calidad con menor peso.
+
+#### Formatos exclusivos de imagenes para web: AVIF
+
+- Formato de archivo de imagen basado en el codec de vide AV1.
+- Compresion altamente eficiente.
+- Calidad de imagen excepcional.
+- Buena compatibilidad.
 
 <!DOCTYPE html>
     <html>
@@ -362,6 +372,15 @@ Un diseño mayormente fluido en el que las columnas se ajustan proporcionalmente
 - Seleccionar crear y modificar elementos del HTML.
 - Agregar eventos.
 
+## Performance Web
+
+- La velocidad y eficiencia con la que las paginas son cargadas y mostradas en el navegador del usuario.
+- Un buen rendimiento es escencial para una buena experiencia de usuario.
+- Mejoras recomendadas:
+    1. Minificar CSS y JS
+    1. Carga diferida de imagenes con Lazy Loading
+    1. Servir formatos modernos con las imagenes.
+
 ### Herramientas
 
 Iconos:
@@ -400,5 +419,7 @@ NPM: Administrador de paquetes.
 ### Despliegue de los sitios
 
 [Sitio Freelancer](https://freelancer-fepdev25.netlify.app/)
+
 [Blog Café](https://blogcafefepdev25.netlify.app)
+
 [FestivalMusica](https://fepdev25festivalmusica.netlify.app/)

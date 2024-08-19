@@ -25,7 +25,11 @@ function crearGaleria() {
     for (let i = 1; i <= cantidadImagenes; i++) {
         const imagen = document.createElement('IMG');
         imagen.src = 'src/img/gallery/full/'+i+'.jpg';
-        imagen.alt = 'Imagen de galeria';
+        imagen.innerHTML = `
+        <source srcset="build/img/gallery/full/${i}.avif" type="image/avif">
+        <source srcset="build/img/gallery/full/${i}.webp" type="image/webp">
+        <img loading="lazy" width="200" height="300" src="build/img/gallery/full/${i}.jpg" alt="imagen galeria">
+        `;
 
         // Event Handler: Detectar y responder a una iteraccion del usuario
         imagen.onclick = function () {
@@ -38,7 +42,10 @@ function crearGaleria() {
 
 function mostrarImagen(indice) {
     const imagen = document.createElement('IMG');
-    imagen.src = 'src/img/gallery/full/'+indice+'.jpg';
+    imagen.loading = 'lazy';
+    imagen.width = '300';
+    imagen.height = '200';
+    imagen.src = 'src/img/gallery/thumb/'+indice+'.jpg';
     imagen.alt = 'Imagen de galeria';
 
     // Generar modal

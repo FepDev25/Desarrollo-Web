@@ -33,7 +33,7 @@
                 <p>Agosto 2024, Cuenca.</p>
             </div>
         </div>
-        <video autoplay muted loop>
+        <video autoplay muted loop preload="auto">
             <source src="./video/dj.mp4" type="video/mp4">
             <source src="./video/dj.ogv" type="video/ogv">
             <source src="./video/dj.webm" type="video/webm">
@@ -42,7 +42,11 @@
 
     <section class="sobre_festival">
         <div class="imagen">
-            <img src="src/img/imagen_dj.jpg" alt="Sobre festival.">
+            <picture>
+                <source srcset="build/img/imagen_dj.avif" type="img/avif" />
+                <source srcset="build/img/imagen_dj.webp" type="img/webp" />
+                <img width="300" height="200" loading="lazy" src="build/img/imagen_dj.jpg" alt="Sobre festival.">
+            </picture>
         </div>
         <div class="contenido_festival">
             <h2>Techno & EDM Festival</h2>
