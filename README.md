@@ -381,6 +381,40 @@ Un diseño mayormente fluido en el que las columnas se ajustan proporcionalmente
     1. Carga diferida de imagenes con Lazy Loading
     1. Servir formatos modernos con las imagenes.
 
+## Bases de datos
+
+- Permite ordenar y almcenar datos ordenados.
+- Permite actualizar informacion de manera segura.
+- Evita datos duplicados.
+- Ofrecen seguridad.
+- Tipos de bases de datos:
+    1. Bases de datos relacionales:
+        - Cada registro o columna son datos relacionados.
+        - Utiliza tablas.
+        - Cada tabla tiene filas, que son atributos de estas entidades.
+        - Tipos de relaciones:
+            - Uno a muchos.
+            - Muchos a muchos.
+            - Uno a uno.
+    1. Bases de datos documentales:
+    1. Bases de datos transaccionales:
+    1. Bases de datos orientados a objetos:
+
+### SQL
+
+- Structure query language.
+- Es el lenguaje mas comun para realizar consultas en una base de datos.
+
+#### MySQL
+
+- Programa que se conoce como Database Management System (DBSM).
+- Utiliza SQL para realizar consultas en la base de datos.
+
+## Stack AMP
+
+- Apache MySQL PHP
+- AMP es un stack de desarrollo. O sea herramientas juntas para crear una aplicacion.
+
 ### Herramientas
 
 Iconos:
