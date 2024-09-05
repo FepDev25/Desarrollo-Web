@@ -410,6 +410,13 @@ Un diseño mayormente fluido en el que las columnas se ajustan proporcionalmente
 - Programa que se conoce como Database Management System (DBSM).
 - Utiliza SQL para realizar consultas en la base de datos.
 
+## PHP
+
+- Inicialmente conocido como Personal Home Page, actualemnte su acónimo significa Hypertext Preprocessor.
+- No es compilado sino que se ejecutan los scripts.
+- Sintaxis similara Js, C o C++.
+- Gratis, open source y diseñado para la web.
+
 ## Stack AMP
 
 - Apache MySQL PHP
