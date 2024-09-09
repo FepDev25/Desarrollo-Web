@@ -422,6 +422,48 @@ Un diseño mayormente fluido en el que las columnas se ajustan proporcionalmente
 - Apache MySQL PHP
 - AMP es un stack de desarrollo. O sea herramientas juntas para crear una aplicacion.
 
+## Requerimientos: Como dividir un proyecto web
+
+- No escribir codigo sin dividir y ordenar el trabajo.
+- Es escencial conocer lo que el cliente necesita.
+
+### 7 etapas para construir un sitios web
+
+1. Pre-proceso:
+    - Quien estara a cargo de que partes del proyecto.
+    - El cliente es parte del equipo.
+    - Roles de pre-proceso:
+        - Creador de contenido.
+        - Arquitectura de la informacion.
+        - Pruebas.
+        - Diseño grafico.
+        - Diseñador UI y UX.
+        - Frontend.
+        - Backend.
+        - Supervidor del testing.
+1. Estrategia de contenido:
+        - Planeacion, desarrollo y administracion de una pagina web.
+        - Obtener un panorama mas claro.
+        - Se definen los planes de contenido.
+        - No se ven colores ni tecnologias a utilizar.
+        - Que es lo mas importante para los visitantes.
+        - Definir a quien queremos llegar y cuales son nuestros usuarios.
+        - Auditamos imagenes, videos, textos y como se relacionan entre si.
+        - Modelado de contenido.
+        - Jerarquia, que paginas son mas importantes.
+        - Arquitectura de la informacion, como se va a organizar los componentes del sistio web.
+        - Wireframing, como se debe de ver los elementos sin definir colores, fuentes etc.
+1. Etapa de pre-construccion:
+    - Realizar una serie de wirefrmes y se van dividiendo las secciones. Identificar el flujo que tendra el sitio web.
+    - Identificar que necesitamos.
+    - Como sera disponible visitar secciones internas.
+1. Etapa de construccion:
+    - Se empieza a crear el sitio web.
+    - Ya se trabaja sobre el diseño, frontend y backend comienzan a trabajar.
+1. Pruevas y revision:
+1. Etapa de optimizacion:
+1. Lanzamiento:
+
 ### Herramientas
 
 Iconos:
