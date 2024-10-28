@@ -1,30 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienes Raices</title>
-    <link rel="stylesheet" href="build/css/app.css">
-</head>
-<body>
-    
-    <header class="header">
-        <div class="contenedor contenido_header">
-            <div class="barra">
-                <a class="logo" href="/">
-                    <img src="build/img/logo.png" alt="Logotipo de bienes Raices">
-                </a>
-
-                <nav class="navegacion">
-                    <a href="nosotros.html">Nosotros</a>
-                    <a href="anuncios.html">Anuncios</a>
-                    <a href="blog.html">Blog</a>
-                    <a href="contacto.html">Contacto</a>
-                </nav>
-                
-            </div> <!-- Fin barra de navegacion -->
-        </div>
-    </header>
+<?php 
+    require 'includes/funciones.php';
+    incluirTemplate('header');
+?>
 
     <main class="seccion contenedor"> 
         <h2>Casas y Departamentos en Venta</h2>
@@ -42,20 +19,20 @@
 
                     <ul class="iconos_caracteristicas">
                         <li>
-                            <img loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
+                            <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
                             <p>3</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento">
+                            <img class="icono" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento">
                             <p>3</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="build/img/icono_dormitorio.svg" alt="icono dormitorio">
+                            <img class="icono" loading="lazy" src="build/img/icono_dormitorio.svg" alt="icono dormitorio">
                             <p>4</p>
                         </li>
                     </ul>
 
-                    <a class="boton_amarillo_block" href="anuncio.html">Ver Propiedad</a>
+                    <a class="boton_amarillo_block" href="anuncio.php">Ver Propiedad</a>
                 </div> <!-- Contenido anuncio -->
             </div> <!-- Anuncio -->
             <div class="anuncio">
@@ -71,20 +48,20 @@
 
                     <ul class="iconos_caracteristicas">
                         <li>
-                            <img loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
+                            <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
                             <p>2</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento">
+                            <img class="icono" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento">
                             <p>2</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="build/img/icono_dormitorio.svg" alt="icono dormitorio">
+                            <img class="icono" loading="lazy" src="build/img/icono_dormitorio.svg" alt="icono dormitorio">
                             <p>3</p>
                         </li>
                     </ul>
 
-                    <a class="boton_amarillo_block" href="anuncio.html">Ver Propiedad</a>
+                    <a class="boton_amarillo_block" href="anuncio.php">Ver Propiedad</a>
                 </div> <!-- Contenido anuncio -->
             </div> <!-- Anuncio -->
             <div class="anuncio">
@@ -100,20 +77,20 @@
 
                     <ul class="iconos_caracteristicas">
                         <li>
-                            <img loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
+                            <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
                             <p>4</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento">
+                            <img class="icono" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento">
                             <p>4</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="build/img/icono_dormitorio.svg" alt="icono dormitorio">
+                            <img class="icono" loading="lazy" src="build/img/icono_dormitorio.svg" alt="icono dormitorio">
                             <p>4</p>
                         </li>
                     </ul>
 
-                    <a class="boton_amarillo_block" href="anuncio.html">Ver Propiedad</a>
+                    <a class="boton_amarillo_block" href="anuncio.php">Ver Propiedad</a>
                 </div> <!-- Contenido anuncio -->
             </div> <!-- Anuncio -->
             <div class="anuncio">
@@ -129,20 +106,20 @@
 
                     <ul class="iconos_caracteristicas">
                         <li>
-                            <img loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
+                            <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
                             <p>3</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento">
+                            <img class="icono" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento">
                             <p>3</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="build/img/icono_dormitorio.svg" alt="icono dormitorio">
+                            <img class="icono" loading="lazy" src="build/img/icono_dormitorio.svg" alt="icono dormitorio">
                             <p>4</p>
                         </li>
                     </ul>
 
-                    <a class="boton_amarillo_block" href="anuncio.html">Ver Propiedad</a>
+                    <a class="boton_amarillo_block" href="anuncio.php">Ver Propiedad</a>
                 </div> <!-- Contenido anuncio -->
             </div> <!-- Anuncio -->
             <div class="anuncio">
@@ -158,20 +135,20 @@
 
                     <ul class="iconos_caracteristicas">
                         <li>
-                            <img loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
+                            <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
                             <p>3</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento">
+                            <img class="icono" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento">
                             <p>3</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="build/img/icono_dormitorio.svg" alt="icono dormitorio">
+                            <img class="icono" loading="lazy" src="build/img/icono_dormitorio.svg" alt="icono dormitorio">
                             <p>4</p>
                         </li>
                     </ul>
 
-                    <a class="boton_amarillo_block" href="anuncio.html">Ver Propiedad</a>
+                    <a class="boton_amarillo_block" href="anuncio.php">Ver Propiedad</a>
                 </div> <!-- Contenido anuncio -->
             </div> <!-- Anuncio -->
             <div class="anuncio">
@@ -187,38 +164,23 @@
 
                     <ul class="iconos_caracteristicas">
                         <li>
-                            <img loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
+                            <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
                             <p>3</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento">
+                            <img class="icono" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento">
                             <p>3</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="build/img/icono_dormitorio.svg" alt="icono dormitorio">
+                            <img class="icono" loading="lazy" src="build/img/icono_dormitorio.svg" alt="icono dormitorio">
                             <p>4</p>
                         </li>
                     </ul>
 
-                    <a class="boton_amarillo_block" href="anuncio.html">Ver Propiedad</a>
+                    <a class="boton_amarillo_block" href="anuncio.php">Ver Propiedad</a>
                 </div> <!-- Contenido anuncio -->
             </div> <!-- Anuncio -->
         </div> <!-- Contenedor anuncios -->
     </main>
 
-    <footer class="footer seccion">
-        <div class="contenedor contenedor_footer">
-            <nav class="navegacion">
-                <a href="nosotros.html">Nosotros</a>
-                <a href="anuncios.html">Anuncios</a>
-                <a href="blog.html">Blog</a>
-                <a href="contacto.html">Contacto</a>
-            </nav>
-        </div>
-
-        <p class="copyright">Todos los derechos reservados 2024 &copy;</p>
-    </footer>
-
-    <script src="build/js/bundle.min.js"></script>
-</body>
-</html>
+<?php incluirTemplate('footer');?>

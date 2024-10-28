@@ -24,7 +24,7 @@ body{
 .contenedor{
     max-width: 120rem;
     width: 90%;
-    width: min(90%, 120rem); /* lo mismo pero en una sola linea */
+    width: min(90%, 120rem);
     margin: 0 auto;
 }
 a{text-decoration: none;}
@@ -33,6 +33,7 @@ h1,h2,h3,h4{
     font-family: var(--fuenteHeading);
     line-height: 1.2;
 }
+
 h1{font-size: 4.8rem;}
 h2{font-size: 4rem;}
 h3{font-size: 3.2rem;}
@@ -76,6 +77,7 @@ img{max-width: 100%;}
 .barra{
     padding: 3rem;
 }
+
 @media (min-width: 768px) {
     .barra{
         display: flex;
@@ -106,6 +108,7 @@ img{max-width: 100%;}
 .navegacion{
     margin-top: 2rem;
 }
+
 @media (min-width: 768px) {
     .navegacion{
         display: flex;

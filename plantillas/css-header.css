@@ -1,0 +1,85 @@
+/* Estilos base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .contenedor {
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .titulo h1 {
+    font-size: 1.5em;
+    color: #f5f5f5;
+  }
+  
+  .titulo h1 span {
+    color: #4CAF50; /* Color de resalte para "FP" */
+  }
+  
+  .navegacion {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navegacion-enlace {
+    color: #f5f5f5;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s;
+  }
+  
+  .navegacion-enlace:hover {
+    color: #4CAF50;
+  }
+  
+  .logo-ups {
+    width: 50px;
+    height: auto;
+  }
+  
+  .separador {
+    height: 2px;
+    background-color: #4CAF50;
+    margin-top: 20px;
+  }
+  
+  /* Media Query para resolución de tablet o menor */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .navegacion {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 15px;
+    }
+  
+    .logo-ups {
+      margin-top: 10px;
+    }
+  }
+  

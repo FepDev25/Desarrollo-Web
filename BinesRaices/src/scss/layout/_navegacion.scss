@@ -10,7 +10,7 @@
     .dark_mode_boton{
         width: 3rem;
         margin-top: 3rem;
-        margin-bottom: 2%;
+        margin-bottom: 1rem;
         filter: invert(100%);
 
         @include tablet{
@@ -44,7 +44,8 @@
 .navegacion{
     visibility: hidden;
     opacity: 0;
-    transition: visibility .3s ease-in-out, opacity 0.5s linear;
+    height: 0;
+    transition: visibility .3s ease-in-out, opacity 0.5s linear, height 0.5s linear;
     
     @include tablet{
         display: flex;
@@ -80,4 +81,5 @@
 .mostrar{
     visibility: visible;
     opacity: 1;
+    height: auto;
 }
